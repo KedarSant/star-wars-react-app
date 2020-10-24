@@ -18,9 +18,8 @@ export default class Card extends Component {
                         <img class="card-img-top mb-5" src={logo} alt="Card"/>
                         <div class="mb-2 card-header">
                             <h3 class="card-title">{this.props.title}</h3>
-                            <button className='btn btn-dark' data-toggle="collapse" data-target={`#_${this.state.id_card}`}
+                            <button className='btn btn-warning' data-toggle="collapse" data-target={`#_${this.state.id_card}`}
                                 aria-expanded="true" aria-controls="collapseOne">
-                                Expand {' '}
                                 <ArrowDownCircleFill size={36} />
                             </button>
                             </div>

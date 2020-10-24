@@ -9,7 +9,7 @@ export default class Grid extends Component {
     }
 
     componentDidMount() {
-        axios(`https://swapi.dev/api/${this.state.category}`)
+        axios(`https://blooming-thicket-64006.herokuapp.com/https://swapi.dev/api/${this.state.category}`)
             .then(res => {
                 this.setState({
                     category : this.state.category,
